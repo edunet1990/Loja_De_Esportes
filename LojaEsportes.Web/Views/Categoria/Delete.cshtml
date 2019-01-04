@@ -1,0 +1,29 @@
+﻿@model LojaEsportes.Dominio.Entidades.Categoria
+@{
+    ViewBag.Title = "Deletar Categoria";
+}
+<h2>Deletar Categoria</h2>
+
+<h3>Deseja deletar esta categoria ?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar categoria" class="btn btn-default" /> |
+            @Html.ActionLink("Retornar", "Index")
+        </div>
+    }
+</div>

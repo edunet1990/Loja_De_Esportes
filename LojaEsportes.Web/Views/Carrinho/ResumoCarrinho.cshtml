@@ -1,0 +1,11 @@
+﻿@model LojaEsportes.Dominio.Entidades.Carrinho
+
+<div class="navbar-right">
+    @Html.ActionLink("Finalizar", "Index", "Carrinho", new {
+    returnUrl =  Request.Url.PathAndQuery }, new { @class = "btn btn-default navbar-btn" })
+</div>
+<div class="navbar-text navbar-right">
+    <b>Seu Carrinho :</b>
+    @Model.Items.Sum(x => x.Quantidade) item(s),
+    @Model.CalcularValorTotal().ToString("c")
+</div>

@@ -1,0 +1,18 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+@model IPagedList<LojaEsportes.Dominio.Entidades.Produto>
+
+@{
+    ViewBag.Title = "Catalogo de Produtos";
+}
+
+<h2>Catálogo de Produtos</h2>
+
+@foreach (var p in Model)
+{
+    @Html.Partial("_CatalogoResumo", p)
+}
+
+<span class="btn-group pull-right">
+    @Html.PagedListPager(Model, pag => Url.Action("Catalogo", new { pag, cat = Request.QueryString["cat"] }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded})
+</span>

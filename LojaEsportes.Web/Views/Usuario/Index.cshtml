@@ -1,0 +1,39 @@
+﻿@model IEnumerable<LojaEsportes.Dominio.Entidades.Usuario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Relação de Usuários</h2>
+
+<p>
+    @Html.ActionLink("Criar Novo Usuário", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Login)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Senha)
+        </th>
+        <th></th>*@
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Login)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Senha)
+        </td>*@
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.UsuarioId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.UsuarioId }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.UsuarioId })
+        </td>
+    </tr>
+}
+
+</table>

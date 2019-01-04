@@ -1,0 +1,39 @@
+﻿@model IEnumerable<LojaEsportes.Dominio.Entidades.UsuarioPermissao>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Relação de Usuários e Permissões</h2>
+
+<p>
+    @Html.ActionLink("Criar Nova Permissão para um Usuário", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Permissao.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Usuario.Login)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Permissao.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Usuario.Login)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.PermissaoUsuarioId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.PermissaoUsuarioId }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.PermissaoUsuarioId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,64 @@
+﻿@model LojaEsportes.Dominio.Entidades.Despacho
+
+@{
+    ViewBag.Title = "Checkout";
+}
+<h2>Finalizar Compra</h2>
+
+<p>Cadastre o seu endereço e aproveite as promoções e ofertas exclusivas. </p>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+    <h3>Enviar Para :</h3>
+    <div class="form-group">
+        <label>Nome:</label>
+        @Html.TextBoxFor(x => x.Nome, new { @class = "form-control" })
+    </div>
+    <h3>Endereço Completo</h3>
+    <div class="form-group">
+        <label>Endereço e No.</label>
+        @Html.TextBoxFor(x => x.Endereco, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Complemento (opcional):</label>
+        @Html.TextBoxFor(x => x.Complemento, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Cep:</label>
+        12345-678
+        @Html.TextBoxFor(x => x.Cep, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Cidade:</label>
+        @Html.TextBoxFor(x => x.Cidade, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Estado:</label>
+        @Html.DropDownListFor(x => x.Estado, new SelectList(
+                  new List<Object>
+                  {
+                       new { value = 0 , text = "São Paulo"},
+                       new { value = 1 , text = "Rio de Janeiro"},
+                       new { value = 2 , text = "Minas Gerais"},
+                       new { value = 3 , text = "Rio Grande do Sul"},
+                       new { value = 4 , text = "Santa Catarina"},
+                       new { value = 5 , text = "Paraná"}
+                   }, "value", "text", 0), null, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label>Email:</label>
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+    </div>
+    <h3>Opção :</h3>
+    <div class="checkbox">
+        <label>
+            @Html.EditorFor(x => x.PacotePresente)
+            Embalar para presente estes itens
+        </label>
+    </div>
+    <div class="text-center">
+        <input class="btn btn-primary" type="submit" value="Finalizar Comprar" />
+    </div>
+}
+

@@ -1,0 +1,18 @@
+﻿@model IEnumerable<LojaEsportes.Dominio.Entidades.Categoria>
+
+
+@if(User.IsInRole("Admin"))
+{    
+  @Html.ActionLink("Administrar", "MenuAdmin", "Admin", null, new { @class = "btn btn-block btn-default btn-lg" })
+}
+
+@Html.ActionLink("Home", "Catalogo", "Produto", null, new { @class = "btn btn-block btn-default btn-lg" })
+
+@foreach (var item in Model)
+{
+    @Html.ActionLink(item.Nome, "Catalogo", "Produto", new { cat = item.CategoriaId, pag = 1 },
+    new
+    {
+        @class = "btn btn-block btn-default btn-lg" + (item.CategoriaId.ToString() == Request.QueryString["cat"] ? " btn-primary" : "" )
+    })
+}

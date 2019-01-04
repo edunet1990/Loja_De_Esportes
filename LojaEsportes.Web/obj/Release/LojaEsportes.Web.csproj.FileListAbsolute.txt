@@ -1,0 +1,60 @@
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Web.dll.config
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Web.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Web.pdb
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\EntityFramework.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\EntityFramework.SqlServer.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Dominio.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\PagedList.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\PagedList.Mvc.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Helpers.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Mvc.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Razor.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.Razor.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Dominio.pdb
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\EntityFramework.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\EntityFramework.SqlServer.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\PagedList.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\PagedList.Mvc.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Razor.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.Razor.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Helpers.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Mvc.xml
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\obj\Release\LojaEsportes.Web.csprojResolveAssemblyReference.cache
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\obj\Release\LojaEsportes.Web.dll
+C:\Curso_ASPNET_MVC5\Aula36_10_lojaVirtual\LojaEsportesVirtual\LojaEsportes.Web\obj\Release\LojaEsportes.Web.pdb
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Web.dll.config
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Web.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Web.pdb
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\EntityFramework.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Dominio.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\PagedList.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\PagedList.Mvc.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Helpers.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Mvc.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Razor.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Dominio.pdb
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\LojaEsportes.Dominio.dll.config
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\EntityFramework.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\PagedList.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\PagedList.Mvc.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Razor.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Helpers.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\bin\System.Web.Mvc.xml
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\obj\Release\LojaEsportes.Web.csprojAssemblyReference.cache
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\obj\Release\LojaEsportes.Web.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\obj\Release\LojaEsportes.Web.csproj.CopyComplete
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\obj\Release\LojaEsportes.Web.dll
+C:\Users\eduardo.estevao.ext\Downloads\curso macoratti\Curso_ASPNET_MVC5_5_36-37\LojaEsportesVirtual\LojaEsportes.Web\obj\Release\LojaEsportes.Web.pdb

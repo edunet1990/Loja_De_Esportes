@@ -1,0 +1,33 @@
+﻿@model LojaEsportes.Dominio.Entidades.UsuarioPermissao
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Permissao.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Permissao.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usuario.Login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usuario.Login)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.PermissaoUsuarioId }) |
+    @Html.ActionLink("Retornar", "Index")
+</p>

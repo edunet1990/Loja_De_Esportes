@@ -1,0 +1,18 @@
+﻿@{
+    if (Request.IsAuthenticated)
+    {
+        using (Html.BeginForm("Logout", "Usuario", FormMethod.Post, new {  id = "logoutForm", @class = "nav navbar-nav navbar-form" }))
+        {
+            <h3>
+                Bem-Vindo @(Request.IsAuthenticated ? HttpContext.Current.User.Identity.Name : "")
+            </h3>
+            <a href="javascript:document.getElementById('logoutForm').submit()">LOGOUT</a>
+        }
+    }
+    else
+    {
+        <ul class="nav navbar-nav navbar-form">
+            @Html.ActionLink("LOGIN", "Login", "Usuario")
+        </ul>
+    }
+}

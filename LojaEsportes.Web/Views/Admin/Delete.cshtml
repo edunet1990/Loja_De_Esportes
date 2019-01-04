@@ -1,0 +1,69 @@
+﻿@model LojaEsportes.Dominio.Entidades.Produto
+@{
+    ViewBag.Title = "Delete";
+}
+<h2>Deletar Produto</h2>
+<h3>Deseja deletar este produto?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        @if (Model.Imagem != null)
+        {
+            <dt>
+                Imagem
+            </dt>
+            <dd>
+                <img src="@Url.Action("ExibirImagem","Arquivo", new { id =Model.ProdutoId })" width="150" height="150" />
+            </dd>
+        }
+        else
+        {
+            <dt>
+                Imagem
+            </dt>
+            <dd>
+                <img src="~/Imagens/semimagem.jpg" width="150" height="150" />
+            </dd>
+        }
+        <dt>
+            @Html.DisplayNameFor(model => model.Categoria.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categoria.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar Produto" class="btn btn-default" /> |
+            @Html.ActionLink("Retornar", "Index")
+        </div>
+    }
+</div>

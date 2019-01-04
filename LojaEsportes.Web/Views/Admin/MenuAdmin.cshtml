@@ -1,0 +1,17 @@
+﻿<img src="~/Imagens/adminsite.jpg" width="420" height="90" />
+
+<br />
+
+@Html.ActionLink("Administrar Produtos", "Index", "Admin", null, new
+{
+    @class ="btn btn-block btn-default btn-lg"
+})
+
+@Html.ActionLink("Administrar Categorias", "Index", "Categoria", null, new
+{
+    @class = "btn btn-block btn-default btn-lg"
+})
+
+@Html.ActionLink("Administrar Usuário", "Index", "Usuario", null, new { @class = "btn btn-block btn-default btn-lg" })
+@Html.ActionLink("Administrar Permissões", "Index", "Permissao", null, new { @class = "btn btn-block btn-default btn-lg" })
+@Html.ActionLink("Administrar Permissões do Usuário", "Index", "UsuarioPermissao", null, new { @class = "btn btn-block btn-default btn-lg" })

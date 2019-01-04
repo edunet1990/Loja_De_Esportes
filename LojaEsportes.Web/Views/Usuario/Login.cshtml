@@ -1,0 +1,51 @@
+﻿@model LojaEsportes.Web.Models.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+}
+<h2>Login</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.AntiForgeryToken()
+    <fieldset>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Login)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Login)
+            @Html.ValidationMessageFor(model => model.Login, "", new
+       {
+           @class =
+
+               "text-danger"
+       })
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Senha)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Senha)
+            @Html.ValidationMessageFor(model => model.Senha, "", new
+       {
+           @class =
+
+               "text-danger"
+       })
+        </div>
+        <div class="editor-field">
+            @Html.CheckBoxFor(m => m.LembrarMe)
+            @Html.LabelFor(m => m.LembrarMe)
+        </div>
+        <p>
+            <input type="submit" value="Login" />
+        </p>
+        <p>
+            @Html.ActionLink("Registrar-se como um novo usuário", "Registro")
+        </p>
+    </fieldset>
+}
+<div>
+    @Html.ActionLink("Retornar", "Catalogo", "Produto")
+</div>
